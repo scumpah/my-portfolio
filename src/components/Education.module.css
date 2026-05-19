@@ -1,0 +1,53 @@
+.prompt {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.user   { color: var(--green);  font-weight: 600; }
+.sep    { color: var(--muted); }
+.path   { color: var(--cyan);  font-weight: 600; }
+.dollar { color: var(--muted); margin-left: 2px; }
+.cmd    { color: var(--white); margin-left: 4px; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 560px;
+}
+
+.top, .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.institution {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.period {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.degree {
+  color: var(--cyan);
+  font-size: 13px;
+}
+
+.location {
+  color: var(--muted);
+  font-size: 12px;
+}
